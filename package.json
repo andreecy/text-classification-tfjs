@@ -1,14 +1,14 @@
 {
   "name": "tensorflowjs-test",
   "version": "1.0.0",
-  "description": "",
+  "description": "Basic text classification using Tensorflow.js",
   "scripts": {
     "start": "npx ts-node ./src/index.ts",
     "build": "npx tsc",
     "prod": "node ./dist/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["text classification", "tensorflow", "neural networks"],
+  "author": "andreecy",
   "license": "MIT",
   "dependencies": {
     "@tensorflow/tfjs": "^4.0.0"
